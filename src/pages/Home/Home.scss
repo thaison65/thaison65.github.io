@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+#home {
+  display: initial;
+
+  .content {
+    padding: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .context-code {
+    @include code-m;
+    color: var(--color-secondary);
+  }
+}

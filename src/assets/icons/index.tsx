@@ -1,0 +1,17 @@
+export { default as LinkedinSVG } from './LinkedinSVG';
+export { default as GithubSVG } from './GithubSVG';
+export { default as DiscordSVG } from './DiscordSVG';
+export { default as SearchSVG } from './SearchSVG';
+export { default as MailSVG } from './MailSVG';
+export { default as LocationSVG } from './LocationSVG';
+export { default as BriefcaseSVG } from './BriefcaceSVG';
+export { default as LinkSVG } from './LinkSVG';
+export { default as DownloadSVG } from './DownloadSVG';
+export { default as GridSVG } from './GridSVG';
+export { default as UserSVG } from './UserSVG';
+export { default as CodeSVG } from './CodeSVG';
+export { default as MonitorSVG } from './MonitorSVG';
+export { default as EditSVG } from './EditSVG';
+export { default as MouseSVG } from './MouseSVG';
+export { default as LineSVG } from './LineSVG';
+export { default as Line2SVG } from './Line2SVG';

@@ -1,0 +1,29 @@
+@import '../../../../styles/variables';
+
+.container-module-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+  .content-module {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  & > .content-module-title {
+    & > h1 {
+      @include h1-u;
+      color: var(--color-primary);
+    }
+
+    & > p {
+      @include para-m;
+      color: var(--color-white);
+    }
+  }
+}
